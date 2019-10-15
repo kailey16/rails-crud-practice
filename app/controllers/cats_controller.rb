@@ -35,7 +35,7 @@ class CatsController < ApplicationController
     private
 
     def cat_params
-        params.require(:cat).permit(:name, :fluffiness)
+        params.require(:cat).permit(:name, :fluffiness, :friendlylevel)
     end
 
 end
