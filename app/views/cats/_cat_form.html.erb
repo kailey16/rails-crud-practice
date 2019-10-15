@@ -1,0 +1,9 @@
+<h1> Cat form </h1>
+
+<%= form_for(@cat) do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+<%= f.label :fluffiness %>
+<%= f.text_field :fluffiness %>
+<%= f.submit %>
+<% end %>
